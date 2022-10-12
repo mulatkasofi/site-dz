@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap');
+*
+{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.price-subcontainer
+{
+    width: 1170px;
+    box-sizing: content-box;
+}
+.price-container{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F5F5F5 ;
+}
+.price-info-container {
+    width: 1170px;
+    height: 530px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .price-info {
+    width: 370px;
+    height: 510px;
+    border: 1px solid white;
+    align-self: flex-end;
+  }
+  
+  section.second {
+    align-self: flex-start;
+  }
+  .price-info h4{
+    background: #333;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid #F5F5F5;
+    font-size: 24px;
+  }
+  .price-info h3
+  {
+    font-weight: 700;
+    height: 100px;
+    line-height: 100px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #F5F5F5;
+    font-size: 24px;
+    font-size: 36px;
+  }
+  .price-info .line
+  {
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .price-info .subtitle
+  {
+    height: 50px;
+    line-height: 50px;
+    background: #333;
+    text-align: center;
+    border: 2px solid #F5F5F5;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .price-subcontainer h2
+  {
+    
+    text-transform: uppercase;
+    height: 150px;
+    line-height: 150px;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+
+  }
+  .price-subcontainer .separator
+ {
+    width: 170px;
+    border: 0.5px solid #EC7979;
+    margin: 0 auto;
+    
+ }
+ .price-subcontainer .text
+ {
+    margin: 40px 0 59px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+ }
