@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap');
 
 * {
-  font-family: "Roboto",sans-serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -10,85 +10,81 @@
   width: 1170px;
   height: 501px;
   border: 1px solid #C6CBCD;
-  box-sizing: border-box;
   border-top: none;
 }
 
 .tabs-container {
+  font-family: "Open Sans", sans-serif;
   padding: 0 170px;
   display: table-cell;
   vertical-align: middle;
-  height: 639px;
-  
+  height: 100vh;
+
 }
 
 .open-tab,
-.tab_picture {
+.tab-picture-container {
   width: 50%;
   display: table-cell;
   vertical-align: middle;
-  box-sizing: border-box;
+
 }
 
-.tab__title title {
+.tabs-container .open-tab__title title {
 
   width: 570px;
   height: 124px;
   margin: 1px 30px 27px 100px;
-  
+
 }
 
 
-.tab__button {
+.tabs-container .open-tab__button {
   margin: 1px 330px 54px 100px;
-  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   text-align: center;
-  color: #FFFFFF;
+  color: #FFF;
   width: 270px;
   height: 58px;
   background: #EC7979;
   border: none;
- 
+
 
 }
 
-.tab__text {
+.tabs-container .open-tab__text {
   margin: 1px 30px 27px 100px;
   width: 570px;
   height: 210px;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   align-items: center;
 
-  color: #000;
-  
+
 }
 
-.open-tab .title {
+.tabs-container .open-tab .title {
   height: 124px;
-  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 124px;
- text-align: center;
+  text-align: center;
 
-  color: #000;
 }
 
-.tabs__tab {
+.tabs-container .tabs-subcontainer__tab {
 
   text-align: center;
   width: 203px;
   height: 40px;
   display: inline-block;
-  box-sizing: border-box;
+
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -96,21 +92,20 @@
   line-height: 40px;
   color: #333333;
   margin-right: -5px;
+  margin-bottom: -2px;
 }
 
-.tabs__tab.tab{
+.tabs-container .tabs-subcontainer__tab.tab {
   border: 1px solid #C6CBCD;
   border-bottom: none;
   border-radius: 5px 5px 0 0;
+
 }
 
 
-
-.tabs .line {
+.tabs-container .tabs-subcontainer__line {
   width: 967px;
   background-color: #C6CBCD;
   margin-left: 203px;
-  height: 0px;
   border-top: 1px solid #C6CBCD;
 }
-
