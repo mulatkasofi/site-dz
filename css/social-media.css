@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+.social-media {
+    width: 100%;
+    height: 140px;
+    background-color: #F8EFEF;
+
+}
+
+.social-media h4 {
+    line-height: 60px;
+    width: 470px;
+    height: 60px;
+    margin: 2px 0 18px 170px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+}
+
+.social-media h5 {
+    width: 470px;
+    height: 42px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    margin: 0 0 18px 170px;
+}
+
+.social-media__icons,
+.social-media__info {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.social-media__icons {
+    padding-left: 49.84px;
+}
+.social-media__icons img {
+    margin-right: 52.31px;
+}

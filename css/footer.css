@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+footer {
+    height: 164px;
+    background: #000;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    padding-top: 39.43px;
+
+}
+
+.contact-icons img:not(:last-of-type) {
+    margin-right: 52.31px;
+}
+
+footer h5 {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 32.23px;
+}

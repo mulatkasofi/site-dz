@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.axit-container {
+    display: flex;
+    justify-content: center;
+    background: url(../img/image.png);
+    box-shadow: inset 442px 1510px 0px rgba(0, 0, 0, 0.5);
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 1026px;
+
+}
+
+.axit-subcontainer img{
+    width: 270px;
+    height: 100px;
+    margin: 208px 0 50.88px 170px;
+}
+.axit-subcontainer__separator {
+    width: 170px;
+    border: 0.5px solid #fff;
+    margin: 0 0 42px 170px;
+}
+
+.axit-subcontainer h1 {
+    width: 670px;
+    height: 168px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 0 55.12px 170px;
+}
+
+.axit-subcontainer__text {
+    width: 270px;
+    height: 42px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 0 42px 170px;
+}
+
+.axit-subcontainer button {
+    border: 2px solid #FFFFFF;
+    width: 270px;
+    height: 58px;
+    background: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 170px;
+
+}
+
+.registration-block {
+    width: 470px;
+    height: 450px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 208px 170px 0 30px;
+}
+
+.registration-block h4 {
+    width: 367px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 50px 0 53px;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+
+.registration-block h4 span {
+    color: #EC7979;
+}
+
+.registration-block .registration-block__input-fields {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    width: 370px;
+    height: 19px;
+    margin: 45px 50px 16px 53px;
+}
+
+.registration-block__separator {
+    width: 370px;
+    border: 0.5px solid #BDBDBD;
+    margin: 0 50px 0 53px;
+}
+
+.registration-block button {
+    width: 468.94px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    margin-top: 75px;
+}

@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway&display=swap');
+
+.contact-us-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us-subcontainer {
+    width: 1170px;
+    box-sizing: content-box;
+}
+
+.contact-us-subcontainer h2 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 150px;
+    font-family: 'Raleway',sans-serif;
+    height: 150px;
+}
+
+.contact-us-subcontainer .contact-us-container__separator {
+    border: 0.5px solid #EC7979;
+    width: 170px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.contact-us-subcontainer h5 {
+    font-family: 'Raleway',sans-serif;
+    line-height: 21px;
+    color: #86878B;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 89px;
+}
+
+.contact-us-container__form .contact-us-container__field {
+    font-family: 'Open Sans',sans-serif;
+    width: 571px;
+    height: 38px;
+    border-bottom: 3px solid #BDBDBD;
+    color: #86878B;
+    font-size: 14px;
+    font-weight: 400px;
+    margin-bottom: 50px;
+}
+.contact-us-container__inputs {
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.contact-us-container__left-side , .contact-us-container__right-side {
+    width: 569px;
+ 
+}
+.contact-us-container button {
+    width: 370px;
+    height: 58px;
+    color: #fff;
+    background: #EC7979;
+    font-size: 18px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+text-transform: capitalize;
+    border: none;
+
+}
+
+.right-side .field:not(:last-of-type){
+    border-color: #fff;
+}
+
+
+/* .contact-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-container .contact-subcontainer {
+    width: 1170px;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+
+.contact-container .contact-container__separator {
+    width: 170px;
+    border: 0.5px solid #EC7979;
+    margin: 0 auto;
+
+}
+
+.contact-container .contact-subcontainer h2 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    height: 150px;
+    line-height: 150px;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+
+
+}
+
+.contact-container .contact-container__text {
+    margin: 40px 0 0;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+}
+
+.contact-container__title {
+    width: 569px;
+    height: 19px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+
+}
+
+.registration-to-send-massage__input-fields {
+    width: 571px;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    margin: 50px 0 16px 0;
+}
+
+.registration-to-send-massage__separator {
+    width: 571px;
+    border: 0.5px solid #BDBDBD;
+    
+}
+
+.massage__separator-right {
+    width: 569px;
+    border: 0.5px solid #BDBDBD;
+    margin: auto;
+
+}
+
+.contact-container button {
+   
+    width: 370px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 58px;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    border: none;
+    margin-top: 50px;
+    margin-left: 401px;
+  
+
+}
+
+.massage__title {
+    width: 569px;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    margin: 89px 0 189px 30px;
+
+}
+
+.massage,
+.registration-to-send-massage {
+    display: table-cell;
+} */
