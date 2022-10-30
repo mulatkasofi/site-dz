@@ -56,7 +56,6 @@ border-right: none;
 
 .tabs-container .open-tab__button {
   margin: 1px 330px 54px 100px;
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   text-align: center;
@@ -74,7 +73,6 @@ border-right: none;
   width: 570px;
   height: 210px;
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -100,7 +98,6 @@ border-right: none;
   height: 40px;
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 40px;
@@ -122,4 +119,19 @@ border-right: none;
   background-color: #C6CBCD;
   margin-left: 203px;
   border-top: 1px solid #C6CBCD;
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+  .open-tab{
+      width: 992px;
+      height: 386px;
+  }
+  .tabs-container .open-tab__title.title
+  {
+    width:482.89px ;
+    height: 89px;
+    line-height: 89px;
+    margin:0 26.21px 38px 84.68px ;
+    font-size: 24px;
+  }
 }

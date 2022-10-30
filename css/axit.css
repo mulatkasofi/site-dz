@@ -6,6 +6,8 @@
     padding: 0;
 }
 
+
+
 .axit-container {
     display: flex;
     justify-content: center;
@@ -13,15 +15,15 @@
     box-shadow: inset 442px 1510px 0px rgba(0, 0, 0, 0.5);
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    height: 1026px;
-
+    height: 951px;
 }
 
-.axit-subcontainer img{
+.axit-subcontainer img {
     width: 270px;
     height: 100px;
     margin: 208px 0 50.88px 170px;
 }
+
 .axit-subcontainer__separator {
     width: 170px;
     border: 0.5px solid #fff;
@@ -117,3 +119,189 @@
     border: none;
     margin-top: 75px;
 }
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .axit-subcontainer img {
+        width: 183.1px;
+        height: 74.85px;
+        margin-top: 137.15px;
+        margin-left: 110.2px;
+        margin-bottom: 37.61px;
+
+
+    }
+
+    .axit-container {
+        background: url(../img/image\ \(4\).png);
+        height: 693.15px;
+    }
+
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .axit-subcontainer h1 {
+        width:
+            454.36px;
+        height: 126px;
+        margin: 0 0 41.49px 110.2px;
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .axit-subcontainer__text {
+        width: 183.1px;
+        height: 32px;
+        margin: 0 0 31.32px 110.28px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .axit-subcontainer button {
+        font-size: 18px;
+        width:
+            183.1px;
+        height:
+            50px;
+        margin-left: 110.28px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .axit-subcontainer__separator {
+
+        width: 115.28px;
+        margin: 0 0 31px 110.28px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .registration-block {
+
+        width: 398px;
+        height: 450px;
+        margin: 137.15px 20px 106px 0;
+
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .registration-block h4 {
+
+        width: 298px;
+        font-size: 18px;
+
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .registration-block .registration-block__input-fields {
+
+        width: 298px;
+        font-size: 14px;
+
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .registration-block__separator {
+
+        width: 298px;
+
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .registration-block button {
+
+        width: 398px;
+        font-size: 15px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .axit-container {
+        height: 949px;
+        background: url(../img/image\ \(5\).png);
+        display: flex;
+        flex-direction: column;
+    }
+    .axit-subcontainer
+    {
+        width: 288px;
+        margin: 0 auto;
+    }
+        
+    
+
+    .axit-subcontainer h1 {
+        width: 288px;
+        font-size: 36px;
+        margin: 0 auto 43px auto;
+        text-align: center;
+       
+    }
+
+    .axit-subcontainer__separator {
+        width: 134px;
+        margin: 0 auto 42px auto;
+    }
+
+    .axit-subcontainer__text {
+        width: 288px;
+        height: 32px;
+        font-size: 14px;
+        margin: 0 auto 42px auto;
+        text-align: center;
+    }
+
+    .axit-subcontainer button {
+        width: 288px;
+        height: 50px;
+        line-height: 50px;
+        margin: 0 auto 56px auto;
+    }
+
+    .registration-block {
+        width: 288px;
+        height: 381px;
+        margin: 0 auto;
+    }
+
+    .registration-block h4 {
+
+        width: 240px;
+        font-size: 14px;
+        margin: 0 auto;
+
+    }
+
+    .registration-block .registration-block__input-fields {
+        width: 240px;
+        font-size: 14px;
+        margin: 0 auto 16px auto;
+       
+    }
+
+    .registration-block button {
+        height: 60px;
+        width: 288px;
+       margin-top:51px ;
+
+
+    }
+    .axit-subcontainer img
+    {
+        display: none;
+    }
+    .registration-block__separator {
+
+        width: 240px;
+        margin: 0 auto 33px auto;
+
+    }
+    }
+

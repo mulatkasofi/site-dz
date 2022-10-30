@@ -57,6 +57,7 @@
 
 }
 .contact-us-container__left-side , .contact-us-container__right-side {
+   
     width: 569px;
  
 }
@@ -73,116 +74,100 @@ text-transform: capitalize;
 
 }
 
-.right-side .field:not(:last-of-type){
+.contact-us-container__right-side .contact-us-container__field:not(:last-of-type){
     border-color: #fff;
 }
-
-
-/* .contact-container {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    font-family: 'Raleway', sans-serif;
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .contact-us-subcontainer{
+        width: 992px;
+    }
 }
-
-.contact-container .contact-subcontainer {
-    width: 1170px;
-    box-sizing: content-box;
-    margin: 0 auto;
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .contact-us-subcontainer h2 {
+        width: 992px;
+        height: 120px;
+        font-size: 24px;
+        line-height: 120px;
+    }
 }
-
-.contact-container .contact-container__separator {
-    width: 170px;
-    border: 0.5px solid #EC7979;
-    margin: 0 auto;
-
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .contact-us-subcontainer .contact-us-container__separator {
+        width: 144px;
+        margin-bottom: 32px;
+    }
 }
-
-.contact-container .contact-subcontainer h2 {
-    margin-top: 20px;
-    text-transform: uppercase;
-    height: 150px;
-    line-height: 150px;
-    font-weight: 400;
-    font-size: 36px;
-    text-align: center;
-
-
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .contact-us-subcontainer h5 {
+        width: 992px;
+        margin-bottom: 32px;
+        margin-bottom: 72px;
+        font-size: 14px;
+    }
 }
-
-.contact-container .contact-container__text {
-    margin: 40px 0 0;
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-    color: #86878B;
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .contact-us-container__form .contact-us-container__field {
+        width: 486px;
+        
+    }
 }
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .contact-us-container button {
+        width: 318px;
+        height: 58px;
 
-.contact-container__title {
-    width: 569px;
-    height: 19px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #BDBDBD;
-
+        
+    }
 }
-
-.registration-to-send-massage__input-fields {
-    width: 571px;
-    height: 19px;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #BDBDBD;
-    margin: 50px 0 16px 0;
-}
-
-.registration-to-send-massage__separator {
-    width: 571px;
-    border: 0.5px solid #BDBDBD;
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .contact-us-container__left-side , .contact-us-container__right-side {
+        width: 486px;
     
+        
+    }
 }
+@media screen and (max-width: 480px) {
+    .contact-us-containerr {
+        height: 847px;
+       display: block;
+    }
+    .contact-us-subcontainer
+    {
+        width: 288px;
+        margin: 0 auto;
+    }
+    .contact-us-subcontainer h2
+    {
+        height: 120px;
+        line-height: 120px;
+        font-size: 24px; 
+        margin-bottom: 24px;
+    }
+    .contact-us-subcontainer h5
+    {
+        height: 32px;
+        font-size: 14px;
+        margin-bottom: 64px;
+    }
+   .contact-us-container .contact-us-container__separator
+    {
+        width: 134px;
+    }
+    .contact-us-container__form .contact-us-container__field
+    {
+        width: 288px;
 
-.massage__separator-right {
-    width: 569px;
-    border: 0.5px solid #BDBDBD;
-    margin: auto;
-
-}
-
-.contact-container button {
+    }
    
-    width: 370px;
-    height: 58px;
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 58px;
-    color: #FFFFFF;
-    background-color: #EC7979;
-    border: none;
-    margin-top: 50px;
-    margin-left: 401px;
-  
+    .contact-us-container__inputs
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-us-container button {
+        width: 288px;
+        height: 50px;
+
+        
+    }
 
 }
-
-.massage__title {
-    width: 569px;
-    height: 19px;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-    color: #BDBDBD;
-    margin: 89px 0 189px 30px;
-
-}
-
-.massage,
-.registration-to-send-massage {
-    display: table-cell;
-} */
